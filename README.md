@@ -1,5 +1,8 @@
 # DiamondNews
 
+This is a website created independently in my first-year computer science degree with no previous knowledge of web design and development. It uses HTML5, CSS3 and  basic JavaScript. Go to https://adhaybe.github.io/DiamondNews/ to see the website!
+
+Below is the wireframes and sitemap used before implementing my first website!
 
 ![techwireframe](https://user-images.githubusercontent.com/44402315/121822856-4e42df00-cc99-11eb-91cc-7381c5f7dde4.jpg)
 ![wrldwireframe](https://user-images.githubusercontent.com/44402315/121822857-4f740c00-cc99-11eb-8c52-cd91117ca8e4.jpg)
