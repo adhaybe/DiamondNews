@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Technology News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<div class="logo">
+  <img src="img/log.png" id= "logoID" alt="">
+  </div>
+<!-- Navigation bar -->
+
+      <header>
+          <!--Menu icon appear on the navbar when screen is made smaller-->
+
+            <nav class="menu">
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                  </div>
+        <!--End of Menu icon-->
+
+                  <div>
+                      <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="sports.html">Sports News</a></li>
+                              <li><a href="technology.html">Technology News</a></li>
+                              <li><a href="business.html">Business News</a></li>
+                              <li><a href="worldnews.html">World News</a></li>
+                      </ul>
+                  </div>
+            </nav>
+          </header>
+
+<!--End of Navigation bar-->
+  
+<!-- Defines a container for fixed size centered content, 
+    and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+      <br>
+    <br>
+    <h6><span class="w3-tag">Welcome to the latest tech for Diamond News</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="img/technology.jpg" alt="" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Latest Tech News</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- News entries -->
+    <div class="w3-col l8 s12">
+    
+    <!-- News Article entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>First Look at iPhone XS, XS Max, XR</h3>
+          <h5>Sneak peek of Apple's latest IPhones<br><span class="w3-opacity">September 12, 2018</span></h5>
+        </div>
+
+        <div class="justify">
+          <img src="img/iphone.jpg" alt="iPhone" style="width:100%" class="w3-padding-16">
+          <p> Apple spent a ton of stage time talking about all the advances it made with the iPhone XS and iPhone XS Max. But then it busted out the iPhone XR and revealed that it has pretty much all the same features and is cheaper. You can even capture Portrait Mode photographs with the iPhone XR’s single-lens camera.
+              About the only real differences are its Liquid Retina LCD display, lack of 3D Touch and that single camera lens on the back. That could cause a lot of Apple fans to wonder why the heck they should spend $1,100 on the iPhone XS Max. With all the color options, it looks like the iPhone XR could be the dark horse to be the most popular new iPhone of 2018.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/george.png" alt="george" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">September 13, 2018, 6:32 PM</span></h4>
+                <p>"Great screen, very fast, loud and battery life is great."</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+    <!-- News Article entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Razer Blade 15 is a great entry-level gaming laptop</h3>
+          <h5>Razer unveiling their all new redesign for their razer lineup<br><span class="w3-opacity">September, 2018</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/razer.jpeg" alt="razer" style="width:100%" class="w3-padding-16">
+          <p>This base Razer Blade 15 came with a 15.6” display, Intel Core i7 processor, 16 GB of memory, a 128 GB solid state drive, and a 1 TB traditional hard drive. Needless to say, it’s quite fast. Opening applications and games takes seconds. Games run incredibly well, especially if you want to achieve 1080p 60 FPS. While I personally would’ve liked to see the GeForce GTX 1080 in there, the GTX 1060 offers ample power for all your gaming, image manipulation, and video editing needs at 1080p 60 FPS.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Comments Section -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/dummy.png" alt="dummy" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>A thin and light gaming laptop. Very difficult to pull off. Well done Razer!!</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/george.png" alt="george" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Can't for Razer to release this all new redesign. It already looks fantastic!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- News Article entry -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Samsung begins Android Pie rollout for Galaxy S9 in Europe</h3>
+          <h5>Latest version of Android is being introduced<br><span class="w3-opacity">December 7 2018</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/s9.jpg" alt="phones" style="width:100%" class="w3-padding-16">
+          <p>Just in time for the holidays, Samsung has begun releasing its Android Pie update for the Galaxy S9. SamMobile was first to notice the German release, while other users on Twitter and Reddit have seen the update become available in the Netherlands and Slovakia as well. Along with the upgrades made by Google, Android Pie on the S9 also brings Samsung’s One UI, a new user experience which is intended to make apps easier to use on larger phones, amongst other improvements.</p>
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/dummy.png" alt="dummy" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">December 24, 2018, 7:22 PM</span></h4>
+                <p>The interface is looking good for Samsung's devices. I can't wait!!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/george.png" alt="george" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">December 24, 2018, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! </p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/dummy.png" alt="dummy" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">December 24, 2018, 9:12 PM</span></h4>
+                <p>Can't wait for the new update to Drop!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  <!-- END News Article ENTRIES -->
+</div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <hr>
+
+           <!-- TRENDING CONTENT -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Current news trending</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/jose.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            <span class="w3-large">Jose Mourinho leaves MANCHESTER UNITED</span>
+            <br>
+            <span>December, 2018</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/kevin.png" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            <span class="w3-large">Kevin Spacey charged with sexual assault</span>
+            <br>
+            <span>December, 2018</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/boxingday.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+            <span class="w3-large">Bigger Boxing day discounts expected</span>
+            <br>
+            <span>December, 2018</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/ipad.jfif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+            <span class="w3-large">Apple debuts it's all new IPAD PRO</span>
+            <br>
+            <span>December, 2018</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-white w3-margin">
+            <div class="w3-container w3-padding w3-black">
+              <h4>Sports News</h4>
+            </div>
+            <ul class="w3-ul w3-hoverable w3-white">
+              <li class="w3-padding-16">
+                <img src="img/jose.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                <span class="w3-large">Jose Mourinho leaves MANCHESTER UNITED</span>
+                <br>
+                <span>December, 2018</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/ramsey.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                <span class="w3-large">Aaron Ramsey: Arsenal midfielder in talks with Bayern, Inter, Juventus, PSG & Real Madrid</span>
+                <br>
+                <span>December, 2018</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/una.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                <span class="w3-large">Unai Emery: Arsenal boss fined £8,000 by FA for kicking water bottle towards fans</span>
+                <br>
+                <span>December, 2018</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="img/floyd.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+                <span class="w3-large">Floyd Mayweather floors Tenshin Nasukawa thrice to win exhibition</span>
+                <br>
+                <span>December, 2018</span>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="w3-white w3-margin">
+                <div class="w3-container w3-padding w3-black">
+                  <h4>Technology News</h4>
+                </div>
+                <ul class="w3-ul w3-hoverable w3-white">
+                  <li class="w3-padding-16">
+                    <img src="img/bixby.webp" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                    <span class="w3-large">Samsung Working on Smaller Bixby-Powered Smart Speaker</span>
+                    <br>
+                    <span>December, 2018</span>
+                  </li>
+                  <li class="w3-padding-16">
+                    <img src="img/asus.webp" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                    <span class="w3-large">Asus ZenFone Max Pro M2 Appears to Have Gone on Open Sale</span>
+                    <br>
+                    <span>December, 2018</span>
+                  </li>
+                  <li class="w3-padding-16">
+                    <img src="img/moto.webp" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                    <span class="w3-large">Motorola One Power Gets December Security Patch in India</span>
+                    <br>
+                    <span>December, 2018</span>
+                  </li>
+                  <li class="w3-padding-16">
+                    <img src="img/ipad.jfif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+                    <span class="w3-large">Apple debuts it's all new IPAD PRO</span>
+                    <br>
+                    <span>December, 2018</span>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                      <h4>Business News</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                      <li class="w3-padding-16">
+                        <img src="img/rbs.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                        <span class="w3-large">RBS applies for German banking licence ahead of Brexit.</span>
+                        <br>
+                        <span>December, 2018</span>
+                      </li>
+                      <li class="w3-padding-16">
+                        <img src="img/kevin.png" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                        <span class="w3-large">Japan's Nikkei index slides amid US uncertainty</span>
+                        <br>
+                        <span>December, 2018</span>
+                      </li>
+                      <li class="w3-padding-16">
+                        <img src="img/boxingday.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                        <span class="w3-large">Bigger Boxing day discounts expected</span>
+                        <br>
+                        <span>December, 2018</span>
+                      </li>
+                      <li class="w3-padding-16">
+                        <img src="img/iph.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+                        <span class="w3-large">Apple blames China as it cuts forecast</span>
+                        <br>
+                        <span>December, 2018</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="w3-white w3-margin">
+                        <div class="w3-container w3-padding w3-black">
+                          <h4>World News</h4>
+                        </div>
+                        <ul class="w3-ul w3-hoverable w3-white">
+                          <li class="w3-padding-16">
+                            <img src="img/planet.png" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                            <span class="w3-large">Nasa's New Horizons: 'Snowman' shape of distant Ultima Thule revealed</span>
+                            <br>
+                            <span>December, 2018</span>
+                          </li>
+                          <li class="w3-padding-16">
+                            <img src="img/kevin.png" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                            <span class="w3-large">Kevin Spacey charged with sexual assault</span>
+                            <br>
+                            <span>December, 2018</span>
+                          </li>
+                          <li class="w3-padding-16">
+                            <img src="img/funeral.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px">
+                            <span class="w3-large">German funeral urns wash up on Dutch beaches</span>
+                            <br>
+                            <span>December, 2018</span>
+                          </li>
+                          <li class="w3-padding-16">
+                            <img src="img/spy.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:70px">
+                            <span class="w3-large">Paul Whelan: US ambassador visits spy suspect held in Russia</span>
+                            <br>
+                            <span>December, 2018</span>
+                          </li>
+                        </ul>
+                      </div>
+      <!--END OF TRENDING CONTENT-->
+           <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Us</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest News.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Subscribe to receive updates on the latest News and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer">
+          <div class="contain">
+          <div class="col">
+            <h1>About the company</h1>
+            <ul>
+              <li>About</li>
+              <li>Mission</li>
+              <li>Services</li>
+              <li>Social</li>
+              <li>Get in touch</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Useful Links</h1>
+            <ul>
+              <li>Home</li>
+              <li>Technology</li>
+              <li>Sports</li>
+              <li>World News</li>
+              <li>Business</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Accounts</h1>
+            <ul>
+              <li>Sign up</li>
+              <li>Subscribe</li>
+              <li>Newsletters</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1>Support</h1>
+            <ul>
+              <li>Contact us</li>
+              <li>Web chat</li>
+              <li>Open ticket</li>
+            </ul>
+          </div>
+          <div class="col social">
+            <h1>Our Socials</h1>
+            <ul>
+              <li><img src="https://svgshare.com/i/5fq.svg" width="32" alt="icon1" style="width: 32px;"></li>
+              <li><img src="https://svgshare.com/i/5eA.svg" width="32" alt="icon2" style="width: 32px;"></li>
+              <li><img src="https://svgshare.com/i/5f_.svg" width="32" alt="icon3" style="width: 32px;"></li>
+            </ul>
+          </div>
+        <div class="clearfix"></div>
+        </div>
+        </div>
+  </footer>
+        <!-- END OF FOOTER -->
+
+
+<script>
+// Toggle between hiding and showing replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+<script>
+
+    // Menu-toggle button
+
+    $(document).ready(function() 
+    {
+          $(".menu-icon").on("click", function() 
+          {
+                $("nav ul").toggleClass("showing");
+          });
+    });
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+                $('nav').addClass('black');
+          }
+
+          else {
+                $('nav').removeClass('black');
+          }
+    })
+
+    </script>
+
+</body>
+</html>
